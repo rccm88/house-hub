@@ -7,12 +7,13 @@ import millify from 'millify';
 
 import { baseUrl, fetchApi } from '../../utils/fetchApi';
 import ImageScrollbar from '../../components/ImageScrollbar';
+import ImageScrollbar2 from '../../components/ImageScrollbar2';
 import Test from '../../components/Test';
 
 const PropertyDetails = ({ propertyDetails: { price, rentFrequency, rooms, title, baths, area, agency, isVerified, description, type, purpose, furnishingStatus, amenities, photos } }) => (
-  <Box maxWidth='1000px' margin='auto' p='4'>
-    {/*<Test />*/}
-    {photos && <ImageScrollbar data={photos} />}
+  <Box maxWidth='700px' margin='auto' p='4'>
+    {/*photos && <ImageScrollbar data={photos} />*/}
+    {photos && <ImageScrollbar2 data={photos} />}
     <Box w='full' p='6'>
       <Flex paddingTop='2' alignItems='center'>
         <Box paddingRight='3' color='green.400'>{isVerified && <GoVerified />}</Box>
@@ -58,7 +59,7 @@ const PropertyDetails = ({ propertyDetails: { price, rentFrequency, rooms, title
         ))}
       </Flex>
     </Box>
-  </Box>
+  </Box >
 );
 
 export default PropertyDetails;
