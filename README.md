@@ -1,6 +1,6 @@
-## HouseHub Real Estate
+## HouseHub Real Estate (https://house-hub.vercel.app/)
 
-This is a real estate agency project created with Next.js along with React.js. The project consumes a REST API that contains a big variety of properties to rent and to purchase. The use of Next.js made the project really light and fast. Even when searching for properties with filters on the search page, the loading time is almost instantaneous, demonstrating the power of Next.js.
+This is a real estate agency project created with Next.js along with React.js running at https://house-hub.vercel.app/. The project consumes a REST API that contains a big variety of properties to rent and to purchase. The use of Next.js made the project really light and fast. Even when searching for properties with filters on the search page, the loading time is almost instantaneous, demonstrating the power of Next.js.
 
 ## Getting Started
 
